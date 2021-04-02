@@ -30,7 +30,7 @@ namespace USMALL
             services.AddDbContext<StoreDbContext>(opts =>
             {
                 opts.UseSqlServer(
-                    Configuration["ConnectionString:USMALLConnection"]);
+                    Configuration["ConnectionStrings:USMALLConnection"]);
             });
             services.AddScoped<IStoreRepository, EFStoreRepository>();
         }
