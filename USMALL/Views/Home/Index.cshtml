@@ -1,1 +1,14 @@
-﻿<h4>Welcome to USMALL</h4>
+﻿@model IQueryable<Product>
+
+@foreach (var p in Model)
+{
+<div>
+    <h3>@p.Name</h3>
+    @p.Description
+    @*
+       ToString("c") method, which renders numerical values as currency
+       according to the culture settings
+    *@
+    <h4>@p.Price.ToString("c")</h4>
+</div>
+}
