@@ -8,16 +8,16 @@ UI.
 All information inside the original date base inside the application was taken from this channel corresponds to real products from The Ordinary Canada
 
 Products that were used inside the application:
-Niacinamide 10% + Zinc 1%
-Natural Moisturizing Factors + HA
-Glycolic Acid 7% Toning Solution
-Vitamin C Suspension 23% + HA Spheres 2%
-Mineral UV Filters SPF 30 with Antioxidants
-Retinol 1% in Squalane
-Amino Acids + B5
-AHA- 30% + BHA 2%
-Lactic Acid 10% + HA
-Hyaluronic Acid 2% + B5
+-Niacinamide 10% + Zinc 1%
+-Natural Moisturizing Factors + HA
+-Glycolic Acid 7% Toning Solution
+-Vitamin C Suspension 23% + HA Spheres 2%
+-Mineral UV Filters SPF 30 with Antioxidants
+-Retinol 1% in Squalane
+-Amino Acids + B5
+-AHA- 30% + BHA 2%
+-Lactic Acid 10% + HA
+-Hyaluronic Acid 2% + B5
 
 
 ![alt text](https://user-images.githubusercontent.com/45067850/113432025-1811f500-93f6-11eb-82d4-76499a63b326.png)
