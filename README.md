@@ -2,6 +2,8 @@
 
 The project was based on an existing INSTAGRAM managed by me and my friends, channel for the sale of goods from the United States, in particular cosmetics for skin care.
 
+![alt text](https://user-images.githubusercontent.com/45067850/113433782-43e2aa00-93f9-11eb-9a4b-4e03c6332684.png)
+
 In order to make it easier for customers to purchase and place orders, it was decided to create an online store based on a .Net Core 3.1 framework with a client and administrator 
 UI.
 
@@ -19,7 +21,5 @@ Products that were used inside the application:
 - Lactic Acid 10% + HA
 - Hyaluronic Acid 2% + B5
 
-
-![alt text](https://user-images.githubusercontent.com/45067850/113432025-1811f500-93f6-11eb-82d4-76499a63b326.png)
-
+![alt text](https://user-images.githubusercontent.com/45067850/113433817-552bb680-93f9-11eb-83f0-4ffc3c1b9438.png)
 
