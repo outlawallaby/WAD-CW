@@ -1,10 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using Microsoft.AspNetCore.Mvc;
 using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Mvc;
 using USMALL.Models;
-using USMALL.DAL;
+using USMALL.Models.ViewModels;
 
 namespace USMALL.Controllers
 {
@@ -17,12 +14,21 @@ namespace USMALL.Controllers
         {
             repository = repo;
         }
-        public ViewResult Index(int productPage=1)
-            => View(repository.Products
-                .OrderBy(p=>p.ProductID)
-                .Skip((productPage-1)*PageSize)
-                .Take(PageSize));
+        public ViewResult Index(int productPage = 1)
+        => View(new ProductsListViewModel
+        {
+            Products = repository.Products
+             .OrderBy(p => p.ProductID)
+             .Skip((productPage - 1) * PageSize)
+             .Take(PageSize),
+            PagingInfo = new PagingInfo
+            {
+                CurrentPage = productPage,
+                ItemsPerPage = PageSize,
+                TotalItems = repository.Products.Count()
+            }
+        });
 
-       
+
     }
 }
