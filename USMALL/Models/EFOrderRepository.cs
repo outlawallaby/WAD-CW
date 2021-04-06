@@ -7,7 +7,7 @@ using USMALL.DAL;
 
 namespace USMALL.Models
 {
-    public class EFOrderRepository
+    public class EFOrderRepository:IOrderRepository
     {
         private StoreDbContext context;
         public EFOrderRepository(StoreDbContext ctx)
