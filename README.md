@@ -1,4 +1,4 @@
-# This repository is created as a Part of Web Application Development Module Assignment by Westminster University Student with ID 00008487.
+# This repository is created as a Part of Web Application Development Module Assigment by Westminster University Student with ID 00008487.
 
 The project was based on an existing INSTAGRAM managed by me and my friends, channel for the sale of goods from the United States, in particular cosmetics for skin care.
 
