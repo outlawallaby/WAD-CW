@@ -39,4 +39,3 @@ namespace USMALL.Models
         public int Quantity { get; set; }
     }
 }
-}
