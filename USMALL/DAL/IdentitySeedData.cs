@@ -7,14 +7,14 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.EntityFrameworkCore;
 using USMALL.Models;
+using USMALL.DAL;
 
-namespace USMALL.DAL
+namespace USMALL.Models
 {
     public static class IdentitySeedData
     {
         private const string adminUser = "00008487";
         private const string adminPassword = "Ovosikov8487$";
-
         public static async void EnsurePopulated(IApplicationBuilder app)
         {
             AppIdentityDbContext context = app.ApplicationServices
@@ -37,4 +37,5 @@ namespace USMALL.DAL
             }
         }
     }
+
 }
